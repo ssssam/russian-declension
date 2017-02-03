@@ -1,0 +1,82 @@
+# Useful links:
+#
+#   http://masterrussian.com/blpronouns_table.shtml
+#   http://www.russianlessons.net/grammar/pronouns.php
+
+# Personal pronouns, equivalent of the English I / you / he / she / we / them
+personal:
+  - name:  1st person singular
+    words:   { n: я, a: меня, g: меня, p: мне, d: мне, i: мной }
+  - name:  2nd person singular
+    words:   { n: ты, a: тебя, g: тебя, p: тебе, d: тебе, i: тобой }
+  - name:  3rd person male singular
+    words:   { n: он, a: его, g: его, p: нём, d: ему, i: им }
+  - name:  3rd person female singular
+    words:   { n: она, а: eё, g: eё, p: ней, d: ей, i: ей }  # also i: ею
+  - name:  3rd person neuter singular
+    words:   { n: оно, a: его, g: его, p: нём, d: ему, i: им }
+  - name:  1st person plural
+    words:   { n: мы, a: нас, g: нас, p: нас, d: нам, i: нами }
+  - name:  2nd person plural
+    words:   { n: вы, а: вас, g: вас, p: вас, d: вам, i: вами }
+  - name:  3rd person plural
+    words:   { n: они, a: их, g: их, p: них, d: им, i: ими }
+
+
+# Reflexive pronouns, equivalent of English myself / yourself / hisself /
+# herself / ourselves / yourselves / themselves.
+reflexive:
+  - name: reflexive
+    # Can't be used in the nominative case (it can't be the subject of a
+    # sentence).
+    words: { a: себя, g: себя, p: себе, d: себе, i: собой }
+
+# Possessive pronouns, equivalent of English my / your / our / his / her /
+# their, and mine / yours / ours / his / hers / theirs.
+possessive:
+  - name: 1st person singular owns masculine noun
+    words: { n: мой, а: 'мой (animate), моего (inanimate)', g: моего, p: моём, d: моему, i: моим }
+  - name: 1st person singular owns feminine noun
+    words: { n: моя, а: моюо, g: моей, p: моей, d: моей, i: моей }
+  - name: 1st person singular owns neuter noun
+    words: { n: моё, a: моё, g: моего, p: моём, d: моему, i: моим }
+  - name: 1st person singular owns plural nouns
+    words: { n: мои, a: 'мои (animate), моих (inanimate)', g: моих, p: моих, d: моим, i: моими }
+  - name: 2nd person singular owns masculine noun
+    words: { n: твой, a: 'твой (animate), твоего (inanimate)', g: твоего, p: твоём, d: твоему, i: твоим }
+  - name: 2nd person singular owns feminine noun
+    words: { n: твоя, a: твою, g: твоей, p: твоей, d: твоей, i: твоей }
+  - name: 2nd person singular owns neuter noun
+    words: { n: твоё, a: твоё, g: твоего, p: твоём, d: твоему, i: твоим }
+  - name: 2nd person singular owns plural nouns
+    words: { n: твои, a: 'твои (animate), твоих (inimate)', g: твоих, p: твоих, d: твоим, i: твоими }
+  - name: 3rd person singular owns masculine noun
+    words: его
+  - name: 3rd person singular owns feminine noun
+    words: её
+  - name: 3rd person singular owns neuter noun
+    words: его
+  - name: 3rd person singular owns plural nouns
+    words: их
+  - name: 1st person plural owns masculine noun
+    words: { n: наш, a: 'наш (animate), нашего (inanimate)', g: нашего, p: нашем, d: нашему, i: нашим }
+  - name: 1st person plural owns feminine noun
+    words: { n: наша, a: нашу, g: нашей, p: нашей, d: нашей, i: нашей }
+  - name: 1st person plural owns neuter noun
+    words: { n: наше, a: наше, g: нашего, p: нашем, d: нашему, i: нашим }
+  - name: 1st person plural owns plural nouns
+    words: { n: наши, a: 'наши (animate), наших (inanimate)', g: наших, p: наших, d: нашим, i: нашими }
+  - name: 2nd person plural owns masculine noun
+    words: { n: ваш, a: 'ваш (animate), вашего (inanimate)', g: вашей, p: вашем, d: вашему, i: вашим }
+  - name: 2nd person plural owns feminine noun
+    words: { n: ваша, a: вашу, g: вашей, p: вашей, d: вашей, i: вашей }
+  - name: 2nd person plural owns neuter noun
+    words: { n: ваше, a: ваше, g: вашего, p: вашем, d: вашему, i: вашим }
+  - name: 2nd person plural owns plural nouns
+    words: { n: ваши, a: 'ваши (animate), ваших (inanimate)', g: ваших, p: ваших, d: вашим, i: вашими }
+  - name: 3rd person plural owns any noun
+    word: их
+
+#  Still to do: reflexive possessive,  emphatic, demonstrative,
+#  determinative, interrogative, indefinite, relative, negative,
+#  see the links above.
