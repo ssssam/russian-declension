@@ -77,6 +77,29 @@ possessive:
   - name: 3rd person plural owns any noun
     word: их
 
-#  Still to do: reflexive possessive,  emphatic, demonstrative,
+# Used mainly in 3rd person when a subject owns the object, like "his own" or
+# "her own" in English.
+reflexive-possessive:
+  - name: 3rd person owns masculine noun
+    words: { n: свой, a: 'свой (animate), своего (inanimate)', g: своего, p: своём, d: своему, i: своим }
+  - name: 3rd person owns feminine noun
+    words: { n: своя, a:  свою, g: своей, p: своей, d: своeй, i: своeй }
+  - name: 3rd person owns neuter noun
+    words: { n: своё, a: своё, g: своего, p: своём, d: своему, i: своим }
+  - name: 3rd person owns plural nouns
+    words: { n: свои, a: 'свои (animate), своих (inanimate)', g: своих, p: своих, d: своим, i: своими }
+
+# Emphatic: highlights the "myself / himself / herself" part of a sentence.
+emphatic:
+  - name: masculine
+    words: { n: сам, a: 'сам (animate), самого (inanimate)', g: самого, p: самом, d: самому, i: самим }
+  - name: feminine
+    words: { n: сама, a: саму, g: самой, p: самой, d: самой, i: самой }
+  - name: neuter
+    words: { n: само, a: само, g: самого, p: самом, d: самому, i: самим }
+  - name: plural
+    words: { n: сами, a: 'сами (animate), самих (inanimate)', g: самих, p: самих, d: самим, i: самими }
+
+#  Still to do: emphatic, demonstrative,
 #  determinative, interrogative, indefinite, relative, negative,
 #  see the links above.
