@@ -35,15 +35,15 @@ reflexive:
 # their, and mine / yours / ours / his / hers / theirs.
 possessive:
   - name: 1st person singular owns masculine noun
-    words: { n: мой, а: 'мой (animate), моего (inanimate)', g: моего, p: моём, d: моему, i: моим }
+    words: { n: мой, а: 'мой (inanimate), моего (animate)', g: моего, p: моём, d: моему, i: моим }
   - name: 1st person singular owns feminine noun
     words: { n: моя, а: моюо, g: моей, p: моей, d: моей, i: моей }
   - name: 1st person singular owns neuter noun
     words: { n: моё, a: моё, g: моего, p: моём, d: моему, i: моим }
   - name: 1st person singular owns plural nouns
-    words: { n: мои, a: 'мои (animate), моих (inanimate)', g: моих, p: моих, d: моим, i: моими }
+    words: { n: мои, a: 'мои (inanimate), моих (animate)', g: моих, p: моих, d: моим, i: моими }
   - name: 2nd person singular owns masculine noun
-    words: { n: твой, a: 'твой (animate), твоего (inanimate)', g: твоего, p: твоём, d: твоему, i: твоим }
+    words: { n: твой, a: 'твой (inanimate), твоего (animate)', g: твоего, p: твоём, d: твоему, i: твоим }
   - name: 2nd person singular owns feminine noun
     words: { n: твоя, a: твою, g: твоей, p: твоей, d: твоей, i: твоей }
   - name: 2nd person singular owns neuter noun
@@ -59,47 +59,130 @@ possessive:
   - name: 3rd person singular owns plural nouns
     words: их
   - name: 1st person plural owns masculine noun
-    words: { n: наш, a: 'наш (animate), нашего (inanimate)', g: нашего, p: нашем, d: нашему, i: нашим }
+    words: { n: наш, a: 'наш (inanimate), нашего (animate)', g: нашего, p: нашем, d: нашему, i: нашим }
   - name: 1st person plural owns feminine noun
     words: { n: наша, a: нашу, g: нашей, p: нашей, d: нашей, i: нашей }
   - name: 1st person plural owns neuter noun
     words: { n: наше, a: наше, g: нашего, p: нашем, d: нашему, i: нашим }
   - name: 1st person plural owns plural nouns
-    words: { n: наши, a: 'наши (animate), наших (inanimate)', g: наших, p: наших, d: нашим, i: нашими }
+    words: { n: наши, a: 'наши (animate), наших (animate)', g: наших, p: наших, d: нашим, i: нашими }
   - name: 2nd person plural owns masculine noun
-    words: { n: ваш, a: 'ваш (animate), вашего (inanimate)', g: вашей, p: вашем, d: вашему, i: вашим }
+    words: { n: ваш, a: 'ваш (inanimate), вашего (animate)', g: вашей, p: вашем, d: вашему, i: вашим }
   - name: 2nd person plural owns feminine noun
     words: { n: ваша, a: вашу, g: вашей, p: вашей, d: вашей, i: вашей }
   - name: 2nd person plural owns neuter noun
     words: { n: ваше, a: ваше, g: вашего, p: вашем, d: вашему, i: вашим }
   - name: 2nd person plural owns plural nouns
-    words: { n: ваши, a: 'ваши (animate), ваших (inanimate)', g: ваших, p: ваших, d: вашим, i: вашими }
+    words: { n: ваши, a: 'ваши (inanimate), ваших (animate)', g: ваших, p: ваших, d: вашим, i: вашими }
   - name: 3rd person plural owns any noun
     word: их
 
 # Used mainly in 3rd person when a subject owns the object, like "his own" or
 # "her own" in English.
 reflexive-possessive:
+  # https://ru.wiktionary.org/wiki/свой
   - name: 3rd person owns masculine noun
-    words: { n: свой, a: 'свой (animate), своего (inanimate)', g: своего, p: своём, d: своему, i: своим }
+    words: { n: свой, a: 'свой (inanimate), своего (animate)', g: своего, p: своём, d: своему, i: своим }
   - name: 3rd person owns feminine noun
     words: { n: своя, a:  свою, g: своей, p: своей, d: своeй, i: своeй }
   - name: 3rd person owns neuter noun
     words: { n: своё, a: своё, g: своего, p: своём, d: своему, i: своим }
   - name: 3rd person owns plural nouns
-    words: { n: свои, a: 'свои (animate), своих (inanimate)', g: своих, p: своих, d: своим, i: своими }
+    words: { n: свои, a: 'свои (inanimate), своих (animate)', g: своих, p: своих, d: своим, i: своими }
 
 # Emphatic: highlights the "myself / himself / herself" part of a sentence.
 emphatic:
+  # https://ru.wiktionary.org/wiki/сам
   - name: masculine
-    words: { n: сам, a: 'сам (animate), самого (inanimate)', g: самого, p: самом, d: самому, i: самим }
+    words: { n: сам, a: 'сам (inanimate), самого (animate)', g: самого, p: самом, d: самому, i: самим }
   - name: feminine
-    words: { n: сама, a: саму, g: самой, p: самой, d: самой, i: самой }
+    words: { n: сама, a: 'саму, самоё', g: самой, p: самой, d: самой, i: самой }
   - name: neuter
     words: { n: само, a: само, g: самого, p: самом, d: самому, i: самим }
   - name: plural
-    words: { n: сами, a: 'сами (animate), самих (inanimate)', g: самих, p: самих, d: самим, i: самими }
+    words: { n: сами, a: 'сами (inanimate), самих (animate)', g: самих, p: самих, d: самим, i: самими }
 
-#  Still to do: emphatic, demonstrative,
-#  determinative, interrogative, indefinite, relative, negative,
+# Demonstrative 1: like 'this' in English
+demonstrative-1:
+  # https://ru.wiktionary.org/wiki/этот
+  - name: this masculine thing
+    words: { n: этот, a: 'этот (inanimate), этого (animate)', g: этого, p: этом, d: этому, i: этим}
+  - name: this feminine thing
+    words: { n: эта, a: эту, g: этой, p: этой, d: этой, i: этой}
+  - name: this neuter thing
+    words: { n: это, a: это, g: этого, p: этом, d: этому, i: этим}
+  - name: these plural things
+    words: { n: эти, a: 'эти (inanimate), этих (animate)', g: этих, p: этих, d: этим, i: этими }
+
+# Demonstrative 2: like 'that' in English
+demonstrative-2:
+  # https://ru.wiktionary.org/wiki/тот
+  - name: that masculine thing
+    words: { n: тот, a: 'тот (inanimate) того (animate)', g: того, p: том, d: тому, i: тем}
+  - name: that feminine thing
+    words: { n: та, a: ту, g: той, p: той, d: той, i: той}
+  - name: that neuter thing
+    words: { n: то, a: то, g: того, p: том, d: тому, i: тем}
+  - name: those plural things
+    words: { n: те, a: 'те (inanimate) тех (animate)', g: тех, p: тех, d: тем, i: теми}
+
+# Like 'all' in English
+determinative:
+  # https://ru.wiktionary.org/wiki/весь
+  - name: all of this masculine thing
+    words: { n: весь, a: 'весь (inanimate) всего (animate)', g: всего, p: всём, d: всем, i: всем }
+  - name: all of this feminine thing
+    words: { n: вся, a: всю, g: всей, p: всей, d: всей, i: всей }
+  - name: all of this neuter thing
+    words: { n: всё, a: всё, g: всего, p: всём, d: всему, i: всем }
+  - name: all of these plural things
+    words: { n: все, a: 'все (inanimate) всех (animate)', g: всех, p: всех, d: всем, i: всеми }
+
+interrogative:
+  - name: what?
+    words: { n: что, a: что, g: чего, p: чём, d: чему, i: чем }
+  - name: who?
+    words: { n: кто, a: кого, g: кого, p: кому, d: кем, i: ком }
+  - name: how much?
+    words: { n: сколько, a: сколько, g: скольких, p: скольких, d: скольким, i: солькими }
+  # https://ru.wiktionary.org/wiki/какой
+  - name: what kind of masculine thing?
+    words: { n: какой, a: 'какой (inanimate), какого (animate)', g: какого, p: каком, d: какому, i: каким }
+  - name: what kind of feminine thing?
+    words: { n: какая, a: какую, g: какои, p: какои, d: какой, i: 'какои, какою'}
+  - name: what kind of neuter thing?
+    words: { n: какое, a: какое, g: какого, p: каком, d: какому, i: каким }
+  - name: what kind of plural things?
+    words: { n: какие, a: 'какие (inanimate), каких (animate)', g: каких, p: каких, d: каким, i: какими }
+  # https://ru.wiktionary.org/wiki/который
+  - name: which masculine thing?
+    words: { n: который, a: 'который (inanimate), которого (animate)', g: которого, p: котором, d: которому, i: которым }
+  - name: which feminine thing?
+    words: { n: которая, a: которую, g: которой, p: которой, d: которой, i: 'которой, ктороюо' }
+  - name: which neuter thing?
+    words: { n: которое, a: которое, g: которого, p: котором, d: которому, i: которым }
+  - name: which plural things?
+    words: { n: которые, a: 'которые (inanimate), которых (animate)', g: которых, p: которых, d: которым, i: которыми }
+  # https://ru.wiktionary.org/wiki/чей
+  - name: whose masculine thing?
+    words: { n: чей, a: 'чей (inanimate), чьего (animate)', g: чьего, p: чьём, d: чьему, i: чьим }
+  - name: whose feminine thing?
+    words: { n: чья, a: чью, g: чьей, p: чьей, d: чьей, i: чьей }
+  - name: whose neuter thing?
+    words: { n: чьё, a: чьё, g: чьего, p: чьём, d: чьему, i: чеём }
+  - name: whose plural things?
+    words: { n: чЬи, a: 'чьи (inanimate), чьих (animate)', g: чьих, p: чьих, d: чьим, i: чвих }
+
+interrogative:
+  - name: what?
+    words: { n: , a:, g: , p: , d: , i: }
+  - name: who?
+    words: { n: , a: , g: , p: , d: , i: }
+  - name: neuter
+    words: { n: , a: , g: , p: , d: , i: }
+  - name: plural
+    words: { n: , a:, g: , p: , d: , i: }
+
+#  Still to do:
+#  demonstrative, indefinite, relative, negative,
 #  see the links above.
